@@ -3,10 +3,11 @@
 import './commands';
 import 'cypress-mochawesome-reporter/register';
 import './customcommands/customcommand';
-        beforeEach (()=>{
+
+
+ beforeEach(()=>{
     cy.on('uncaught:exception', ()=>{
         return false
-        })
-        cy.visit('/');
+    })
+    cy.visit('/');
 })
-   
