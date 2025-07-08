@@ -13,8 +13,8 @@ jobs:
         - name: Intialize NPM
           uses: actions/checkout@v4
         # - run: |
-        #       ls -la
-        #       find . -type f
+        #       ls -la list all items in the current directory
+        #       find . -type f lists folder and subfolders and files in the current directory
 
         - name: Run Cypress
           uses: cypress-io/github-action@v6
