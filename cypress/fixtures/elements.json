@@ -3,7 +3,8 @@
     "loginPage":{
       "usernamefield": "[name='username']",
       "passwordfield": "[name='password']",
-      "loginbutton": "[type='submit']"
+      "loginbutton": "[type='submit']",
+      "errorMessage": ".oxd-text.oxd-text--p.oxd-alert-content-text"
 
 
     },
