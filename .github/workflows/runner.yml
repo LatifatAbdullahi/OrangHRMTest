@@ -12,6 +12,7 @@ jobs:
         steps:
         - name: Intialize NPM
           uses: actions/checkout@v4
+        - run: ls -la
 
         - name: Run Cypress
           uses: cypress-io/github-action@v6

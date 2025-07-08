@@ -2,7 +2,7 @@ let loginPage;
 let homePage;
 
 before(() => {
-  cy.fixture("elements").then((sel) => {
+  cy.fixture("elements.json").then((sel) => {
     homePage = sel.elements.homePage;
     loginPage = sel.elements.loginPage;
   });
