@@ -1,6 +1,9 @@
 name: Run Cypress Test
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
     cypress-runner:
@@ -13,4 +16,9 @@ jobs:
         - name: Run Cypress
           uses: cypress-io/github-action@v6
 
-    
+        - name: Upload Report
+          uses: actions/upload-artifact@v4
+          with:
+              name: reports
+              path: |
+                  cypress/reports/
