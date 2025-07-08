@@ -1,0 +1,15 @@
+{
+  "elements": {
+    "loginPage":{
+      "usernamefield": "[name='username']",
+      "passwordfield": "[name='password']",
+      "loginbutton": "[type='submit']"
+
+
+    },
+    "homePage":{
+      "roleDropdown": ".oxd-form-row:nth-child(1)>div>div:nth-of-type(1) .oxd-select-wrapper .oxd-select-text-input"
+
+    }
+  }
+}
